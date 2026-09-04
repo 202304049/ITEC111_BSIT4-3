@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Student Profile Template</title>
+		<style>
+			body {
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+				background-color: #f4f7f6;
+				color: #333;
+				margin: 0;
+				padding: 40px 20px;
+				display: flex;
+				justify-content: center;
+			}
+			.profile-card {
+				max-width: 500px;
+				width: 100%;
+				background: white;
+				padding: 40px;
+				border-radius: 12px;
+				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+				text-align: center;
+			}
+			.avatar {
+				width: 100px;
+				height: 100px;
+				background-color: #3498db;
+				color: white;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 2.5rem;
+				font-weight: bold;
+				margin: 0 auto 20px auto;
+				overflow: hidden; /* Ensures the image doesn't bleed past the rounded border */
+			}
+			.avatar img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover; /* Prevents the image from stretching or squeezing */
+				display: block;
+			}
+			h1 {
+				color: #2c3e50;
+				margin: 10px 0 5px 0;
+			}
+			.role {
+				color: #e74c3c;
+				font-weight: 600;
+				text-transform: uppercase;
+				font-size: 0.85rem;
+				letter-spacing: 1px;
+				margin-bottom: 20px;
+			}
+			.bio {
+				color: #7f8c8d;
+				line-height: 1.6;
+				margin-bottom: 30px;
+			}
+			.back-link {
+				display: inline-block;
+				color: #3498db;
+				text-decoration: none;
+				font-weight: 500;
+			}
+			.back-link:hover {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="profile-card">
+			<div class="avatar">
+				<img
+					src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/365444695_6447148045379238_4882929975023196931_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEaCRPS-czihBMjGMYjBVgMaCKH6GXzTDJoIofoZfNMMgwd1U9H8tjQhC-ad7R6Dk1davuaZzbgDOI6vSeeXj7L&_nc_ohc=JATOKNtxJQkQ7kNvwHNNvyd&_nc_oc=AdrzEPdA3NhRYB4lykoNKG_nyv3Lmi2dx3YKn15ioq9cDHimXVb53g5spTMut0p8xmNzA4Mbf8T9ey-F6_3R3zuH&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_gid=8ux41uPRLKMtGnGNtksBYg&_nc_ss=7b2a8&oh=00_AQIDB8M5LsZQ1p91P1lj1dyEgVY4XMgqQFZVbxdD2tNFsQ&oe=6AA043D4"
+					alt="VL" />
+			</div>
+
+			<!-- STUDENTS: REPLACE THE TEXT BELOW WITH YOUR OWN INFO -->
+			<h1><a href="https://github.com/202304049/202304049">Vicente Lepardo Jr </a></h1>
+			<div class="role">Student Developer</div>
+
+			<p class="bio">
+				Hello! I’m a 4th-year BSIT student currently learning programming and exploring game development with JavaScript and Unity and
+				practices 3D modeling with Blender. Other things I spend my free time aside from coding and modeling are playing video games such as
+				gacha, shooting, and rts games and watching anime.
+			</p>
+
+			<a href="index.html" class="back-link">← Back to Directory</a>
+		</div>
+	</body>
+</html>
